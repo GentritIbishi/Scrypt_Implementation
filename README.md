@@ -1,5 +1,5 @@
 # Scrypt Implementation in Java
-[![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/GentritIbishi/ScryptImplemenation/blob/master/LICENSE.txt)
+[![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/GentritIbishi/Scrypt_Implemenation/blob/master/LICENSE.txt)
 
 ## Overview
 
@@ -36,7 +36,7 @@ int p = 1;     // Parallelization factor
 
 ## Preview of Application
 
-![Preview](https://github.com/GentritIbishi/ScryptImplemenation/blob/master/screenshots/1.png)
+![Preview](https://github.com/GentritIbishi/Scrypt_Implemenation/blob/master/screenshots/1.png)
 
 ## Example Hash Generating in Application
 
@@ -54,7 +54,19 @@ Hash generated: $s0$e0801$eJFXz84VUfLMr/w+pvf9Aw==$iDxegp1WvrKCmJU8wcNHyCfDe6hqv
 
 ## Preview
 
-![Preview](https://github.com/GentritIbishi/ScryptImplemenation/blob/master/screenshots/2.png)
+![Preview](https://github.com/GentritIbishi/Scrypt_Implemenation/blob/master/screenshots/2.png)
+
+## Example Checking Hash Generated with same Plaintext in Application
+
+```java
+Using same plaintext for checking: 123abcdefab
+```
+```java
+Using same hash generated: $s0$e0801$eJFXz84VUfLMr/w+pvf9Aw==$iDxegp1WvrKCmJU8wcNHyCfDe6hqvK9XoTJmuy031Ac=
+```
+## Preview
+
+![Preview](https://github.com/GentritIbishi/Scrypt_Implemenation/blob/master/screenshots/3.png)
 
 ## Example Checking Hash Generated with different Plaintext in Application
 
@@ -66,7 +78,7 @@ Using same hash generated: $s0$e0801$eJFXz84VUfLMr/w+pvf9Aw==$iDxegp1WvrKCmJU8wc
 ```
 ## Preview
 
-![Preview](https://github.com/GentritIbishi/ScryptImplemenation/blob/master/screenshots/4.png)
+![Preview](https://github.com/GentritIbishi/Scrypt_Implemenation/blob/master/screenshots/4.png)
 
 ## Example Checking with same Plaintext but different Hash Generated(removed a part from hash) in Application
 
@@ -85,30 +97,7 @@ Hash with removed a part from hash: $s0$e0801$eJFXz84VUfLMr/w+pvf9Aw==vrKCmJU8wc
 
 ## Preview
 
-![Preview](https://github.com/GentritIbishi/ScryptImplemenation/blob/master/screenshots/5.png)
-
-
-## Example Generate hash with different Plaintext and test that hash to check using first Plaintext that we use in first example
-
-```java
-Using different plaintext for checking: abcdef12345
-```
-
-```java
-Using this hash generated: $s0$e0801$58yftRUTdsTobztz/utyVQ==$elXHxsNEQnAZzw+E/jJfrEjyCMejaDd9g/4h4OFvJ2M=
-```
-
-```java
-Using first plaintext from first example for checking: 123abcdefab
-```
-
-## Preview
-
-![Preview](https://github.com/GentritIbishi/ScryptImplemenation/blob/master/screenshots/6.png)
-
-## Contributing 💡
-If you want to contribute to this project and make it better with new ideas, your pull request is very welcomed.
-If you find any issue just put it in the repository issue section, thank you.
+![Preview](https://github.com/GentritIbishi/Scrypt_Implemenation/blob/master/screenshots/5.png)
 
 ## Example Generate hash with different Plaintext and test that hash to check using first Plaintext that we use in first example
 
@@ -126,9 +115,8 @@ Using first plaintext from first example for checking: 123abcdefab
 
 ## Preview
 
-![Preview](https://github.com/GentritIbishi/ScryptImplemenation/blob/master/screenshots/6.png)
+![Preview](https://github.com/GentritIbishi/Scrypt_Implemenation/blob/master/screenshots/6.png)
 
 ## Contributing 💡
 If you want to contribute to this project and make it better with new ideas, your pull request is very welcomed.
 If you find any issue just put it in the repository issue section, thank you.
-
