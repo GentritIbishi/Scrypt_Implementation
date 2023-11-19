@@ -87,3 +87,48 @@ Hash with removed a part from hash: $s0$e0801$eJFXz84VUfLMr/w+pvf9Aw==vrKCmJU8wc
 
 ![Preview](https://github.com/GentritIbishi/ScryptImplemenation/blob/master/screenshots/5.png)
 
+
+## Example Generate hash with different Plaintext and test that hash to check using first Plaintext that we use in first example
+
+```java
+Using different plaintext for checking: abcdef12345
+```
+
+```java
+Using this hash generated: $s0$e0801$58yftRUTdsTobztz/utyVQ==$elXHxsNEQnAZzw+E/jJfrEjyCMejaDd9g/4h4OFvJ2M=
+```
+
+```java
+Using first plaintext from first example for checking: 123abcdefab
+```
+
+## Preview
+
+![Preview](https://github.com/GentritIbishi/ScryptImplemenation/blob/master/screenshots/6.png)
+
+## Contributing 💡
+If you want to contribute to this project and make it better with new ideas, your pull request is very welcomed.
+If you find any issue just put it in the repository issue section, thank you.
+
+## Example Generate hash with different Plaintext and test that hash to check using first Plaintext that we use in first example
+
+```java
+Using different plaintext for checking: abcdef12345
+```
+
+```java
+Using this hash generated: $s0$e0801$58yftRUTdsTobztz/utyVQ==$elXHxsNEQnAZzw+E/jJfrEjyCMejaDd9g/4h4OFvJ2M=
+```
+
+```java
+Using first plaintext from first example for checking: 123abcdefab
+```
+
+## Preview
+
+![Preview](https://github.com/GentritIbishi/ScryptImplemenation/blob/master/screenshots/6.png)
+
+## Contributing 💡
+If you want to contribute to this project and make it better with new ideas, your pull request is very welcomed.
+If you find any issue just put it in the repository issue section, thank you.
+
