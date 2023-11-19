@@ -24,3 +24,36 @@ Follow these steps to get started with the Scrypt implementation:
    ```bash
    git clone https://github.com/GentritIbishi/Scrypt_Implementation.git
 
+## Configuration
+
+Adjust the Scrypt parameters in the code according to your security requirements. The most common parameters are N, r, and p.
+
+```java
+int N = 16384; // CPU/Memory cost
+int r = 8;     // Block size
+int p = 1;     // Parallelization factor
+```
+
+## Preview of Application
+
+![Preview](https://github.com/GentritIbishi/ScryptImplemenation/blob/master/screenshots/1.png)
+
+## Example Hash Generating in Application
+
+### Input
+
+```java
+Plaintext: 123abcdefab
+```
+
+### Output
+
+```java
+Hash generated: $s0$e0801$eJFXz84VUfLMr/w+pvf9Aw==$iDxegp1WvrKCmJU8wcNHyCfDe6hqvK9XoTJmuy031Ac=
+```
+
+## Preview
+
+![Preview](https://github.com/GentritIbishi/ScryptImplemenation/blob/master/screenshots/2.png)
+
+
