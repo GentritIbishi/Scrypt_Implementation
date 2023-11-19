@@ -22,5 +22,5 @@ Follow these steps to get started with the Scrypt implementation:
 1. **Clone the Repository:**
    
    ```bash
-   git clone https://github.com/your-username/scrypt-java-implementation.git
+   git clone https://github.com/GentritIbishi/Scrypt_Implementation.git
 
